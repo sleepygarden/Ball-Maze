@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ballViewController : UIViewController
+@interface ballViewController : UIViewController <UIAccelerometerDelegate>{
+    UIImageView *ball;
+    CGPoint delta;
+}
 
+@property (nonatomic,retain) IBOutlet UIImageView *ball;
+
+@property CGPoint delta;
+@property (weak, nonatomic) IBOutlet UIImageView *hole;
+-(void)ballWall:(UIImageView*)currentBall;
+-(void)ballCollide:(UIImageView*)currentBall;
 @end

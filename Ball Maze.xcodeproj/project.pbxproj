@@ -15,6 +15,8 @@
 		E09B0932151BA264001C8D20 /* ballAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B0931151BA264001C8D20 /* ballAppDelegate.m */; };
 		E09B0935151BA264001C8D20 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E09B0933151BA264001C8D20 /* MainStoryboard.storyboard */; };
 		E09B0938151BA264001C8D20 /* ballViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E09B0937151BA264001C8D20 /* ballViewController.m */; };
+		E09B0945151BA8F5001C8D20 /* wood-floor.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E09B0944151BA8F5001C8D20 /* wood-floor.jpeg */; };
+		E09B0949151BAE3F001C8D20 /* marble.png in Resources */ = {isa = PBXBuildFile; fileRef = E09B0948151BAE3F001C8D20 /* marble.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +24,17 @@
 		E09B0921151BA264001C8D20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E09B0923151BA264001C8D20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E09B0925151BA264001C8D20 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E09B0929151BA264001C8D20 /* Ball Maze-Info.plist */ = {isa = PBXFileReference; path = "Ball Maze-Info.plist"; sourceTree = "<group>"; };
+		E09B0929151BA264001C8D20 /* Ball Maze-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ball Maze-Info.plist"; sourceTree = "<group>"; };
 		E09B092B151BA264001C8D20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E09B092D151BA264001C8D20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E09B092F151BA264001C8D20 /* Ball Maze-Prefix.pch */ = {isa = PBXFileReference; path = "Ball Maze-Prefix.pch"; sourceTree = "<group>"; };
-		E09B0930151BA264001C8D20 /* ballAppDelegate.h */ = {isa = PBXFileReference; path = ballAppDelegate.h; sourceTree = "<group>"; };
+		E09B092F151BA264001C8D20 /* Ball Maze-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ball Maze-Prefix.pch"; sourceTree = "<group>"; };
+		E09B0930151BA264001C8D20 /* ballAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ballAppDelegate.h; sourceTree = "<group>"; };
 		E09B0931151BA264001C8D20 /* ballAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ballAppDelegate.m; sourceTree = "<group>"; };
 		E09B0934151BA264001C8D20 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		E09B0936151BA264001C8D20 /* ballViewController.h */ = {isa = PBXFileReference; path = ballViewController.h; sourceTree = "<group>"; };
+		E09B0936151BA264001C8D20 /* ballViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ballViewController.h; sourceTree = "<group>"; };
 		E09B0937151BA264001C8D20 /* ballViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ballViewController.m; sourceTree = "<group>"; };
+		E09B0944151BA8F5001C8D20 /* wood-floor.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wood-floor.jpeg"; sourceTree = "<group>"; };
+		E09B0948151BAE3F001C8D20 /* marble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marble.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,8 @@
 		E09B0912151BA264001C8D20 = {
 			isa = PBXGroup;
 			children = (
+				E09B0944151BA8F5001C8D20 /* wood-floor.jpeg */,
+				E09B0948151BAE3F001C8D20 /* marble.png */,
 				E09B0927151BA264001C8D20 /* Ball Maze */,
 				E09B0920151BA264001C8D20 /* Frameworks */,
 				E09B091E151BA264001C8D20 /* Products */,
@@ -150,6 +156,8 @@
 			files = (
 				E09B092C151BA264001C8D20 /* InfoPlist.strings in Resources */,
 				E09B0935151BA264001C8D20 /* MainStoryboard.storyboard in Resources */,
+				E09B0945151BA8F5001C8D20 /* wood-floor.jpeg in Resources */,
+				E09B0949151BAE3F001C8D20 /* marble.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +216,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -226,7 +234,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -274,6 +282,7 @@
 				E09B093D151BA264001C8D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
